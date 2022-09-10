@@ -44,117 +44,117 @@ export default function Home() {
           >
             <MobileDetailsSidebar />
           </Grid>
-          <Grid
-            md={9}
-            xs={12}
-            sx={{ display: "flex", flexDirection: "row", gap: 0.5 }}
-          >
-            <Grid md={3} xs={12}>
-              <MobileDetailsImage />
-            </Grid>
-            <Grid md={9} xs={12}>
-              <Card variant="soft">
-                <List
-                  row
-                  variant="outlined"
-                  sx={{
-                    display: "flex",
-                    borderRadius: "sm",
-                    flexGrow: 0,
-                    mx: "auto",
-                    "--List-decorator-size": "48px",
-                    "--List-item-paddingY": "1rem",
-                  }}
-                >
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/1.jpg" />
-                    </ListItemDecorator>
-                    Mabel Boyle
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/2.jpg" />
-                    </ListItemDecorator>
-                    Boyd Burt
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/3.jpg" />
-                    </ListItemDecorator>
-                    Adam Tris
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/3.jpg" />
-                    </ListItemDecorator>
-                    Adam Tris
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/3.jpg" />
-                    </ListItemDecorator>
-                    Adam Tris
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/3.jpg" />
-                    </ListItemDecorator>
-                    Adam Tris
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/3.jpg" />
-                    </ListItemDecorator>
-                    Adam Tris
-                  </ListItem>
-                  <ListDivider inset="gutter" />
-                  <ListItem>
-                    <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
-                      <Avatar size="sm" src="/static/images/avatar/3.jpg" />
-                    </ListItemDecorator>
-                    Adam Tris
-                  </ListItem>
-                </List>
-
-                <Box>
+          <Grid md={9} xs={12}>
+            <Card variant="outlined">
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "row",
+                  gap: 0.5,
+                }}
+              >
+                <Grid md={3} xs={12}>
+                  <MobileDetailsImage />
+                </Grid>
+                <Grid md={9} xs={12}>
                   <Typography
-                    level="h2"
-                    fontSize="md"
-                    sx={{ alignSelf: "flex-start" }}
+                    level="h1"
+                    sx={{
+                      p: 1,
+                    }}
                   >
-                    Yosemite National Park
+                    Samsung Galaxy S10
                   </Typography>
-                  <Typography level="body2">
-                    April 24 to May 02, 2021
-                  </Typography>
-                </Box>
-
-                <Box sx={{ display: "flex" }}>
-                  <div>
-                    <Typography level="body3">Total price:</Typography>
-                    <Typography fontSize="lg" fontWeight="lg">
-                      $900
-                    </Typography>
-                  </div>
-                  <Button
-                    variant="solid"
-                    size="sm"
-                    color="primary"
-                    aria-label="Explore Bahamas Islands"
-                    sx={{ ml: "auto", fontWeight: 600 }}
+                  <List
+                    row
+                    variant="outlined"
+                    sx={{
+                      display: "flex",
+                      borderRadius: "sm",
+                      flexGrow: 1,
+                      flexWrap: "wrap",
+                      mx: "auto",
+                      p: 1,
+                      "--List-decorator-size": "28px",
+                      "--List-item-paddingY": "1rem",
+                    }}
                   >
-                    Explore
-                  </Button>
-                </Box>
-              </Card>
-            </Grid>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                    <ListItem
+                      variant="outlined"
+                      sx={{ borderRadius: "sm", margin: 1 }}
+                    >
+                      <ListItemDecorator sx={{ alignSelf: "flex-start" }}>
+                        <Avatar size="sm" src="/static/images/avatar/1.jpg" />
+                      </ListItemDecorator>
+                      Mabel Boyle
+                    </ListItem>
+                  </List>
+                </Grid>
+              </Box>
+            </Card>
           </Grid>
         </Grid>
       </Box>
