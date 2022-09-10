@@ -8,18 +8,18 @@ export default function MobileDetailsImage() {
   return (
     <>
       <Card variant="outlined">
-        <Box>
-          <Typography level="h2" fontSize="md" sx={{ alignSelf: "flex-start" }}>
-            Samsung Galaxy S2
-          </Typography>
-          <Typography level="body2">April 24 to May 02, 2021</Typography>
-        </Box>
         <img
           src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg" // Route of the image file
           height={200} // Desired size with correct aspect ratio
           width={144} // Desired size with correct aspect ratio
           alt="Your Name"
         />
+        <Box>
+          <Typography level="h2" fontSize="md" sx={{ alignSelf: "flex-start" }}>
+            Samsung Galaxy S2
+          </Typography>
+          <Typography level="body2">April 24 to May 02, 2021</Typography>
+        </Box>
         <Box sx={{ display: "flex" }}>
           <div>
             <Typography level="body3">Total price:</Typography>
