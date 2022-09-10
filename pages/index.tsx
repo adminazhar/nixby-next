@@ -50,7 +50,8 @@ export default function Home() {
                 sx={{
                   display: "flex",
                   flexDirection: "row",
-                  gap: 0.5,
+                  flexWrap: "wrap",
+                  // gap: 0.5,
                 }}
               >
                 <Grid md={3} xs={12}>
